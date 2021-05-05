@@ -5,7 +5,7 @@ Memories is a blog for posting memories you cherish and you don't want to forget
 ## How to run
 
 Please go ahead and : <br />
--npm install <br />
--make .env file and fill the credentials <br />
--npm start <br />
+-run npm install <br />
+-make .env file and fill the credentials (for server only) <br />
+-run npm start <br />
 on each client and server folders.
