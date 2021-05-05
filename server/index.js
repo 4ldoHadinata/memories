@@ -8,7 +8,6 @@ import postRoutes from './routes/posts.js';
 const app = express();
 dotenv.config();
 
-// body parser is deprecated, but adapted into express
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
